@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* bienvenidos */
+.nav-1{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-1 span{
+    color: rgb(227, 243, 4);
+    margin: .5rem;
+}
+.fa-facebook,
+.fa-instagram{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-right: .5rem;
+}
+
+/* navbar */
+
+.div-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar{
+    position: sticky !important;
+    top: 2rem;
+    left: 0;
+}
+
+.navbar div{
+    justify-content: center;
+}
+
+
+
+/* app */
+
+.app{
+    max-width: 50%;
+    margin: 3rem auto;
+    background-color: rgb(227, 243, 4);
+}
+.app p{
+    text-align: center;
+    font-size: clamp(10px, 4vw, 22px);
+    color: #000;
+    padding: 1rem;
+}
+
+/* estrella */
+.div-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.div-3 img{
+    width: 3rem;
+}
+
+/* bacan casillas */
+
+.bacan-casillas{
+    width: 100%;
+    background: #000;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns:  repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 1rem;
+}
+
+
+.bacan-casillas div a{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.bacan-casillas div div p{
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.bacan-casillas div a:hover> div p{
+    color: rgb(227, 243, 4);
+}
+
+.bacan-casillas img{
+    background: #fff;
+}
+
+.bacan-casillas div a:hover> div img{
+    background: rgb(227, 243, 4);
+}
+
+
+
+/* footer */
+
+footer{
+    background: #000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 1rem;
+}
